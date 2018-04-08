@@ -1,5 +1,5 @@
 var request = require('request');
-
+const _Cache = [];
 function getData (callback) {
   var options = { method: 'GET',
   url: 'http://terriblytinytales.com/test.txt',
